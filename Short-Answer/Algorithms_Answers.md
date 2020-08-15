@@ -1,11 +1,11 @@
 #### Please add your answers to the ***Analysis of  Algorithms*** exercises here.
 
 ## Exercise I
+```python
+a)  O(n)
 
-a)
 
-
-b)
+b)O(n)
 
 
 c)

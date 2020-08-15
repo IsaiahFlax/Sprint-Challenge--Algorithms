@@ -93,11 +93,11 @@ class SortingRobot:
         return self._light == "ON"
 
     def sort(self):
-        """
-        Sort the robot's list.
-        """
-        # Fill this out
-        pass
+        SortingRobot.set_light_on(self)
+
+        if SortingRobot.light_is_on(self):
+            print("ON")
+            
 
 
 if __name__ == "__main__":
